@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header id="logo">
+        <img src="img/forca2.png" alt="imagem da forca">
+    </header>
+    
+    <section class="container">
+
+        <div class="mensagem"></div>
+        <div class="mensagem2"></div>
+        
+        <div class="btn1">
+            <button class="botoes btn-jogo" onclick="start()">Iniciar Jogo</button>
+        </div>
+
+        <div class="btn2">
+            <button class="botoes btn-add" onclick="criaCampo()" >Adicionar nova palavra</button>
+        </div>
+
+        <div class="erros"></div>
+
+        <div class="novojogo"></div>
+
+    </section>
+
+    <input  type="text" class="entrada">
+    
+    <script src="js/main.js"></script>
+    <script src="js/iniciar.js"></script>
+    <script src="js/adicionar-palavra.js"></script>
+</body>
+</html>
